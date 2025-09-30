@@ -10,7 +10,7 @@
             Pregunta 01:
             Realizar una aplicación web que recibe como parámetro el número de una semana y devuelve el día al que pertenece.
         </p>
-        <form action="preg01huanca.php" method="post">
+        <form action="ejerciciosHuanca/preg01huanca.php" method="post">
             <fieldset>
                 <label>Ingrese un número de la semana (1 - 7):</label> 
                 <br><br>
@@ -23,7 +23,7 @@
             Realizar una aplicación web que recibe como parámetro el número de un mes y devuelve el trimestre al que pertenece.
 
         </p>
-        <form action="preg02huanca.php" method="post">
+        <form action="ejerciciosHuanca/preg02huanca.php" method="post">
             <fieldset>
                 <label>Ingrese un número del mes (1 - 12):</label> 
                 <br><br>
@@ -35,7 +35,7 @@
             Pregunta 03:
             Realizar una aplicación web que lea un número entero entre 1 y 10. Si el número es menor que 1 o mayor que 10 el programa debe escribir en pantalla un mensaje de error y en caso de que sea válido debe mostrar en pantalla el número romano que lo representa.
         </p>
-        <form action="preg03huanca.php" method="post">
+        <form action="ejerciciosHuanca/preg03huanca.php" method="post">
             <fieldset>
                 <label>Ingrese un número entre 1 y 10 (1 - 10):</label> 
                 <br><br>
@@ -47,7 +47,7 @@
             Pregunta 04:
             Una tienda dedicada a la venta de equipos y suministros para PC desea premiar a sus clientes que realizan una compra superior o igual a S/. 1000.00 con el sorteo de premios según el valor de una bolilla que tiene un número grabado entre 1 y 5 (este número debe obtenerse de forma aleatoria). Los premios se dan bajo la siguiente tabla:
         </p>
-        <form action="preg04huanca.php" method="post">
+        <form action="ejerciciosHuanca/preg04huanca.php" method="post">
             <fieldset>
                 <label>¡Felicidades! Usted ha sido premiado con una oportunidad de participar en un sorteo.</label> 
                 <p>Solo presione el botón y podrá recibir uno de los siguiente premios:</p>
@@ -89,7 +89,7 @@
             Determine el importe a pagar para el examen de admisión de una universidad, cuyo valor depende del nivel socioeconómico y el colegio de procedencia.
 
         </p>
-        <form>
+        <form action="ejerciciosHuanca/preg05huanca.php" method="post">
             <fieldset>
                 <label>Cálculo de importe a pagar según "Nivel Socieconómico":</p>
                 <label>Por favor seleccione el tipo de Colegio y el Nivel social.</p>
@@ -120,7 +120,7 @@
             Pregunta 06:
             Al ingresar el día y el numero de un mes, devolver la estación del año de acuerdo a la siguiente tabla:
         </p>
-        <form>
+        <form action="ejerciciosHuanca/preg06huanca.php" method="post">
             <fieldset>
                 <table border="2" style="height: 150px; width: 400px;">
                     
@@ -165,7 +165,7 @@
             Pregunta 07:
             Programa que permita el ingreso del día y mes de nacimiento, indique a que signo zodiacal que corresponde según la imagen:
         </p>
-        <form>
+        <form action="ejerciciosHuanca/preg07huanca.php" method="post">
             <fieldset>
 
                 <label><strong>Ingrese un día de nacimiento (1 - 31):</strong></label>
