@@ -14,7 +14,7 @@
             <section id="main">
                 <a href="indexChinga.php">Estructuras Condicionales</a> |
                 <a href="indexGamarra.php">Estructuras Repetitivas</a> | <!--enlaces internos-->
-                <a href="index.php">Estructuras Selectivas</a>
+                <a href="indexHuanca.php">Estructuras Selectivas</a>
             </section>
             <footer>
                 App desarrollado por Chinga, Huanca y Gamarra
