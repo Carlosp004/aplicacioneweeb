@@ -140,9 +140,18 @@
             <fieldset>
                 <label>Importe a Pagar</label><br><br>
                 <label>Colegio:</label><br><br>
-                <input type="text" name="txtcolegio"><br><br>
+                <select name="txtcolegio">
+                    <option value=""></option>
+                    <option value="N">Nacional</option>
+                    <option value="P">Particular</option>
+                </select><br><br>
                 <label>Nivel Social:</label><br><br>
-                <input type="text" name="txtnsocial"><br><br>
+                <select name="txtnsocial">
+                    <option value=""></option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select><br><br>
                 <input type="submit" value="Enviar" name="btnEnviar">
                 <input type="reset" value="Cancelar" name="btnCancelar">
             </fieldset>
