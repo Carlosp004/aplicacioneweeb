@@ -83,9 +83,12 @@
             o más de tres dígitos.
 
         </p>
-        <form>
+        <form action="preg05chinga.php" method="post">
             <fieldset>
-
+                <label>Ingresa el número: </label><br><br>
+                <input type="number" min="1" step="1" name="numero"><br><br><!-- step: indica que de solo 1 dígito es permitido (no decimales) -->
+                <input type="submit" value="Enviar" name="btnEnviar">
+                <input type="reset" value="Cancelar" name="btnCancelar">
             </fieldset>
         </form>
         <p>
@@ -97,9 +100,13 @@
             c. 35º - 36º    Temperatura Normal
             d. <35          Temperatura muy baja: Tómese algo caliente
         </p>
-        <form>
+        <form action="preg06chinga.php" method="post">
             <fieldset>
-
+                <label>Ingresa tu temperatura. 😃</label><br><br>
+                <label>Temperatura °:</label><br><br>
+                <input type="number" name="numbTe"><br><br>
+                <input type="submit" value="Enviar" name="btnEnviar">
+                <input type="reset" value="Cancelar" name="btnCancelar">
             </fieldset>
         </form>
         <p>
@@ -112,9 +119,12 @@
             • Escribe un programa que pida el DNI y ofrezca como resultado letra asociada.
             • Ejemplo: para el DNI 56321122 el NIF es ‘X’.
         </p>
-        <form>
+        <form action="preg07chinga.php" method="post">
             <fieldset>
-
+                <label>Ingrese el DNI:</label><br><br>
+                <input type="number" name="numbDNI"><br><br>
+                <input type="submit" value="Enviar" name="btnEnviar">
+                <input type="reset" value="Cancelar" name="btnCancelar">
             </fieldset>
         </form>
         <p>
@@ -126,9 +136,15 @@
             [N]acional      300.00  200.00  100.00
             [P]articular    400.00  300.00  200.00
         </p>
-        <form>
+        <form action="preg08chinga.php" method="post">
             <fieldset>
-
+                <label>Importe a Pagar</label><br><br>
+                <label>Colegio:</label><br><br>
+                <input type="text" name="txtcolegio"><br><br>
+                <label>Nivel Social:</label><br><br>
+                <input type="text" name="txtnsocial"><br><br>
+                <input type="submit" value="Enviar" name="btnEnviar">
+                <input type="reset" value="Cancelar" name="btnCancelar">
             </fieldset>
         </form>
         <p>
@@ -141,9 +157,15 @@
             Invierno        Del 22 de Junio al 22 de Setiembre
             Primavera       Del 23 de Setiembre al 20 de Diciembre
         </p>
-        <form>
+        <form action="preg09chinga.php" method="post">
             <fieldset>
-
+                <label>Imgrese la fecha: </label><br><br>
+                <label>Día:</label><br><br>
+                <input type="text" name="txtDia"><br><br>
+                <label>Mes:</label><br><br>
+                <input type="text" name="txtMes"><br><br>
+                <input type="submit" value="Enviar" name="btnEnviar">
+                <input type="reset" value="Cancelar" name="btnCancelar">
             </fieldset>
         </form>
         <p>
@@ -152,9 +174,15 @@
             y mes de nacimiento, indique a que signo
             zodiacal que corresponde según la imagen:
         </p>
-        <form>
+        <form action="preg10chinga.php" method="post">
             <fieldset>
-
+                <label>Imgrese tu fecha de nacimiento: </label><br><br>
+                <label>Día:</label><br><br>
+                <input type="text" name="txtDia"><br><br>
+                <label>Mes:</label><br><br>
+                <input type="number" name="txtMes"><br><br>
+                <input type="submit" value="Enviar" name="btnEnviar">
+                <input type="reset" value="Cancelar" name="btnCancelar">
             </fieldset>
         </form>
     </body>

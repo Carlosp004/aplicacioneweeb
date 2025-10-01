@@ -1,7 +1,14 @@
 <?php
 
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
- */
-
+$temperatura = $_POST["numbTe"];
+if ($temperatura >= 39) {
+    $resultado = "Fiebre Alta: Diríjase al Centro de Salud más cercano. 🥵";
+} elseif ($temperatura >= 37 && $temperatura <= 38) {
+    $resultado = "Fiebre: Tómese una pastilla y repose. 🤒";
+} elseif ($temperatura >= 35 && $temperatura <= 36) {
+    $resultado = "Temperatura Normal. 😌";
+} elseif ($temperatura < 35) {
+    $resultado = "Temperatura muy baja: Tómese algo caliente. 🥶";
+}
+echo $resultado;
+?>

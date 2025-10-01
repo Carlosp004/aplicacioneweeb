@@ -1,7 +1,42 @@
 <?php
 
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
- */
+$colegio = $_POST["txtcolegio"];
+$nsocial = $_POST["txtnsocial"];
+$importe = 0;
+
+switch ($colegio) {
+    case "N":
+        if ($nsocial == "A") {
+            $importe = 300;
+        }
+
+        if ($nsocial == "B") {
+            $importe = 200;
+        }
+
+        if ($nsocial == "C") {
+            $importe = 100;
+        }
+
+        break;
+
+    case "P":
+        if ($nsocial == "A") {
+            $importe = 400;
+        }
+
+        if ($nsocial == "B") {
+            $importe = 300;
+        }
+
+        if ($nsocial == "C") {
+            $importe = 200;
+        }
+
+        break;
+}
+
+
+echo "<p>Colegio: " . $colegio . "</p>";
+echo "<p>Importe a pagar: S/. " . $importe . "</p>";
 
